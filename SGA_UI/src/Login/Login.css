@@ -1,0 +1,49 @@
+.divFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8B1E88 !important;
+}
+
+.divLogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.CardFirst {
+    width: 20%;
+    padding: 2%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.divnamesys {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #4F575E;
+}
+
+.divTextLogin {
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+}
+
+.divBtnLogin {
+    display: flex;
+    justify-content: center;
+    padding: 4% 6% 4% 6%;
+}
+
+.btnLogin {
+    background-color: #8B1E88 !important;
+}

@@ -1,0 +1,163 @@
+.dFrist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    height: auto;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+
+.dContent {
+    width: 70%;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+
+}
+
+.dTitle {
+    justify-content: left;
+    align-items: center;
+    font-size: 36px;
+    font-family: calibri;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 8%;
+}
+.dSubTitle {
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+    color: #000000;
+    margin-bottom: 1%;
+}
+.dContentJobMain{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+.dContentJob{
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #dee2e6;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+.labelFont{
+    font-size: 16px;
+    font-family: calibri Light;
+    font-style: italic;
+    font-weight: bold;
+}
+.dBolck{
+    display: block;
+}
+.dflex{
+    display: flex;
+    margin: 0;
+}
+.dLineIssue{
+    height: 16px;
+    margin-left: 5px;
+    border-bottom: solid 2px rgb(31, 98, 186);;
+    width: 30%;
+}
+
+.dLineApprove{
+    height: 16px;
+    margin-left: 5px;
+    border-bottom: solid 2px rgb(31, 98, 186);;
+    width: 50%;
+}
+.dOOO{
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+    background-color: rgb(31, 98, 186);;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.dContentJobRegister{
+    background-color: #74b816;
+    border-radius: 3px;
+    width: 20%;
+    margin: 1% 0% 2% 0%;
+    padding: 4% 2% 4% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #74b816;
+    cursor: pointer;
+    
+}
+
+.dContentJobResult{
+    background-color: #8b1e8b;
+    border-radius: 3px;
+    width: 20%;
+    margin: 1% 0% 2% 2%;
+    padding: 4% 2% 4% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #8b1e8b;
+    cursor: pointer;
+    
+}
+
+.dContentJobApprove{
+    background-color: #4263eb;
+    border-radius: 3px;
+    width: 20%;
+    margin: 1% 0% 2% 0%;
+    padding: 4% 2% 4% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #4263eb;
+    cursor: pointer;
+    
+}
+
+.dContentJobDetail1{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    font-size: 18px;
+    font-family: calibri Light;
+    color: #ffffff;
+}
+
+.dContentJobDetail1_1{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    font-size: 10px;
+    font-family: calibri Light;
+    color: #ffffff;
+    margin-top: -4%;
+}
+
+.dContentJobDetail2{
+    margin-left: 10%;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 32px;
+    font-family: Century Gothic;
+    font-weight:bold;
+    color: #ffffff;
+    text-align: right;
+}
+.dblank{
+    display: block;
+    width: 100%;
+    height: 40px;
+}
