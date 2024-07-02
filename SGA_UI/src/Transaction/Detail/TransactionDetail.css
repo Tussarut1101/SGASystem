@@ -1,0 +1,558 @@
+.dFrist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    height: auto;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+
+.dContent {
+    width: 70%;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+
+}
+
+.dTitle {
+    justify-content: left;
+    align-items: center;
+    font-size: 36px;
+    font-family: calibri;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 8%;
+}
+
+.dSubTitle {
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.dContentJobMain {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.dContentJob {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #8b1e8b;
+    justify-content: left;
+    align-items: center;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.labelFont {
+    font-size: 16px;
+    font-family: calibri Light;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dBolck {
+    display: block;
+}
+
+.dEnd {
+    width: auto;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: right;
+}
+
+.dStatus {
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    background-color: #0D8091;
+    border-radius: 20px;
+}
+
+.dflexRigth {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dIcon {
+    display: flex;
+    align-items: center;
+    /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+    justify-content: center;
+    /* จัดให้อยู่กึ่งกลางในแนวนอน */
+    padding: 6px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    /* ทำให้เป็นวงกลม */
+    margin-right: 5px;
+    /* เพิ่มช่องว่างระหว่างไอคอนกับข้อความ */
+}
+
+.dStatus {
+    display: flex;
+    padding: 6px;
+    font-size: 14px;
+    font-family: Century Gothic;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #0D8091;
+    align-items: center;
+    margin-right: 0.5%;
+}
+
+.dDocumentno {
+    display: flex;
+    padding: 6px;
+    font-size: 14px;
+    font-family: Century Gothic;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: #F76707;
+    margin-right: 1%;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.dflex {
+    display: flex;
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+.dLineIssue {
+    height: 16px;
+    margin-left: 5px;
+    border-bottom: solid 2px rgb(31, 98, 186);
+    ;
+    width: 30%;
+}
+
+.dLineApprove {
+    height: 16px;
+    margin-left: 5px;
+    border-bottom: solid 2px rgb(31, 98, 186);
+    ;
+    width: 50%;
+}
+
+.dOOO {
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+    background-color: rgb(31, 98, 186);
+    ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.dblank {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.dtdMid {
+    display: flex;
+    width: 50%;
+}
+
+.dtdFrist {
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    font-family: calibri Light;
+    padding: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+
+.dtdEnd {
+    display: flex;
+    width: 70%;
+    font-size: 16px;
+    font-family: calibri Light;
+}
+
+.dtdFristE {
+    display: flex;
+    width: 10%;
+    font-size: 16px;
+    font-family: calibri Light;
+    padding: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+
+.dtdEndE {
+    display: flex;
+    width: 70%;
+    font-size: 16px;
+    font-family: calibri Light;
+}
+
+.dtdEndENone {
+    display: flex;
+    width: 20%;
+    font-size: 16px;
+    font-family: calibri Light;
+}
+
+.react-select {
+    width: 90% !important;
+}
+
+.react-select-control {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-select-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.datepicker-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-datepicker {
+    font-size: 16px;
+    font-family: calibri Light;
+    padding: 8px 36px 8px 12px;
+    /* ปรับตำแหน่งของ icon */
+    width: 100%;
+    /* ปรับขนาดตามต้องการ */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.datepicker-icon {
+    position: absolute;
+    right: -17%;
+    /* ปรับตำแหน่งของ icon */
+    top: 45%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    /* สีของ icon */
+}
+
+.dCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-buttonADD {
+    background-color: rgb(81, 214, 152);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonADD:hover {
+    background-color: rgb(50, 179, 115);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonADD:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonADD svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* สีของ icon */
+}
+
+.icon-buttonSearch {
+    background-color: rgb(89, 172, 210);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonSearch:hover {
+    background-color: rgb(55, 110, 136);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonSearch:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonSearch svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* สีของ icon */
+}
+
+.icon-buttonRe {
+    background-color: rgb(142, 82, 198);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonRe:hover {
+    background-color: rgb(83, 49, 114);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonRe:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonRe svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* สีของ icon */
+}
+
+.grid-container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: auto;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.table-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-table {
+    width: 2440px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(121, 44, 121, 0.1);
+    /* เพิ่มเงาเพื่อให้ดูสวยงาม */
+
+}
+
+.grid-table th {
+    border: 1px solid #c5c5c5;
+    padding: 0.8%;
+    /* text-align: left; */
+}
+
+.grid-table td {
+    background-color: #E8E5E8;
+    border: 1px solid #c5c5c5;
+    padding-left: 0.8%;
+    padding-right: 0.8%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* text-align: left; */
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.grid-table th {
+    background-color: #C32AC3;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: calibri Light;
+    color: #ffffff;
+}
+
+.icon-buttonEdit {
+    background-color: rgb(141, 200, 2);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.icon-buttonEdit:hover {
+    background-color: rgb(83, 114, 10);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonEdit:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonEdit svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+    /* สีของ icon */
+}
+
+.icon-buttonDel {
+    background-color: rgb(248, 6, 6);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonDel:hover {
+    background-color: rgb(185, 4, 4);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonDel:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonDel svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+    /* สีของ icon */
+}
+
+/* TransactionDetail.css */
+.tab-strip {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.tab.tab-0 {
+    background-color: #681668;
+    /* สีสำหรับแท็บ 1 */
+    color: white;
+    /* border: 1px solid #4CAF50; */
+}
+
+.tab.tab-1 {
+    background-color: #C32Ac3;
+    /* สีสำหรับแท็บ 2 */
+    color: white;
+    /* border: 1px solid #2196F3; */
+}
+
+.tab.tab-2 {
+    background-color: #8B1E88;
+    /* สีสำหรับแท็บ 2 */
+    color: white;
+    /* border: 1px solid #2196F3; */
+}
+
+.tab.tab-3 {
+    background-color: #9358C1;
+    /* สีสำหรับแท็บ 2 */
+    color: white;
+    /* border: 1px solid #2196F3; */
+}
+
+.tab.tab-4 {
+    background-color: #E151E1;
+    /* สีสำหรับแท็บ 2 */
+    color: white;
+    /* border: 1px solid #2196F3; */
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.tab.active {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* border-bottom: 2px solid #4CAF50; */
+    margin-top: -1%;
+
+    border-bottom: 2px solid #adcf16;
+}
+
+.tab:not(.active) {
+    border-bottom: none; /* ซ่อนเส้นใต้เมื่อไม่ได้เลือกแท็บ */
+  }
+
+.tab-content {
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+    /* border-radius: 0 0 5px 5px; */
+    background-color: #fff;
+}
+
+.dCenterDe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.custom-buttonSendDe {
+    background-color: #E4253E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: calibri Light;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
