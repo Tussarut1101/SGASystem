@@ -1,0 +1,586 @@
+.dFristMEM {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    height: auto;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+
+.dContentMEM {
+    width: 70%;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    font-family: calibri Light;
+
+}
+
+.dTitleMEM {
+    justify-content: left;
+    align-items: center;
+    font-size: 36px;
+    font-family: calibri;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 8%;
+}
+
+.dSubTitleMEM {
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    font-family: calibri Light;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.dContentJobMainMEM {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+
+.dContentJobMEM {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    transition: box-shadow 0.3s ease-in-out;
+    border: solid 1px #8b1e8b;
+    justify-content: left;
+    align-items: center;
+    font-size: 12px;
+    font-family: calibri Light;
+}
+
+.labelFontMEM {
+    font-size: 14px;
+    font-family: calibri Light;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dBolckMEM {
+    display: block;
+}
+
+.dflexMEM {
+    display: flex;
+    margin: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.dblankMEM {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+.dtdMidMEM {
+    display: flex;
+    width: 47%;
+}
+
+.dtdMidEMEM {
+    display: flex;
+    width: 53%;
+}
+
+.dtdFristMEM {
+    display: flex;
+    width: 35%;
+    font-size: 14px;
+    font-family: calibri Light;
+    padding: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+
+.dtdEndMEM {
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.dtdFristEMEM {
+    display: flex;
+    width: 35%;
+    font-size: 14px;
+    font-family: calibri Light;
+    padding: 2%;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 500;
+}
+
+.dtdEndEMEM {
+    display: flex;
+    width: 65%;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.dtdEndENoneMEM {
+    display: flex;
+    width: 10%;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.react-selectMEM {
+    width: 90% !important;
+    font-size: 14px !important;
+    font-family: calibri Light !important;
+    text-align: left !important;
+}
+
+.react-selectMEM-control {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.react-selectMEM-menu {
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dCenterMEM {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: calibri Light;
+}
+
+.icon-buttonADDMEM {
+    background-color: #8b1e88; 
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonADDMEM:hover {
+    background-color: #691767; 
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonADDMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonADDMEM svg {
+    width: 15px;
+    height: 15px;
+    color: white;
+    /* สีของ icon */
+}
+
+
+.icon-buttonDELMEM {
+    background-color: rgb(248, 6, 6); 
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonDELMEM:hover {
+    background-color: rgb(185, 7, 7); 
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonDELMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonDEL svg {
+    width: 15px;
+    height: 15px;
+    color: white;
+    /* สีของ icon */
+}
+
+
+.icon-buttonSearchMEM {
+    background-color: rgb(89, 172, 210);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonSearchMEM:hover {
+    background-color: rgb(55, 110, 136);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonSearchMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonSearchMEM svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* สีของ icon */
+}
+
+.icon-buttonReMEM {
+    background-color: rgb(142, 82, 198);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonReMEM:hover {
+    background-color: rgb(83, 49, 114);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonReMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonReMEM svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* สีของ icon */
+}
+
+.grid-containerMEM {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: auto;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.table-titleMEM {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-tableMEM {
+    width: 760px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #514545;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px rgba(121, 44, 121, 0.1);
+    /* เพิ่มเงาเพื่อให้ดูสวยงาม */
+
+}
+
+.grid-tableMEM th {
+    border: 0px solid #c5c5c5;
+    padding: 2%;
+    /* text-align: left; */
+}
+
+.grid-tableMEM td {
+    background-color: #E8E5E8;
+    border: 0px solid #c5c5c5;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* text-align: left; */
+    font-size: 12px;
+    font-family: calibri Light;
+}
+
+.grid-tableMEM th {
+    background-color: #DF5E8D;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: calibri Light;
+    color: #000;
+}
+
+.icon-buttonEditMEM {
+    background-color: rgb(141, 200, 2);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.icon-buttonEditMEM:hover {
+    background-color: rgb(83, 114, 10);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonEditMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonEditMEM svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+    /* สีของ icon */
+}
+
+.icon-buttonDelMEM {
+    background-color: rgb(248, 6, 6);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+
+.icon-buttonDelMEM:hover {
+    background-color: rgb(185, 4, 4);
+    /* สีเมื่อ hover */
+}
+
+.icon-buttonDelMEM:focus {
+    outline: none;
+    /* ลบเส้นโค้งเมื่อไฟล์สี */
+}
+
+.icon-buttonDelMEM svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+    /* สีของ icon */
+}
+
+.custom-buttonMEM {
+    background-color: #8b1e88; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: calibri Light;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .custom-buttonMEM:hover {
+    background-color: #571857; /* Darker Green */
+  }
+
+  .custom-buttonResetMEM {
+    background-color: #828282; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: calibri Light;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .custom-buttonResetMEM:hover {
+    background-color: #cccccc; /* Darker Green */
+  }
+
+
+  .dEmpIDMEM {
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+    border-bottom: 1px solid #0f0fbf;
+  }
+
+  .dEmpNameMEM {
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+    border-bottom: 1px solid #0f0fbf;
+  }
+
+  .dEmpLoginMEM {
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+    border-bottom: 1px solid #0f0fbf;
+  }
+
+  .dEmpStatusMEM {
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+    border-bottom: 1px solid #0f0fbf;
+  }
+
+  .dAddMEM {
+    width: 3%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dAdvisorMEM {
+    width: 10%;
+    padding: 1% 0% 1% 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+  .dCountAdvisorMEM {
+    width: 25%;
+    padding: 1% 0% 1% 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+
+  .dEmpIDDetailMEM {
+    width: 10%;
+    padding: 1%;
+    margin-left: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+
+  .dEmpNameDetailMEM {
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+
+  .dEmpLoginDetailMEM {
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+
+  .dEmpStatusDetailMEM {
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: calibri Light;
+  }
+
+  .dAddDetailMEM {
+    width: 3%;
+    padding: 1% 1% 1% 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dMonitorHeader {
+    /* display: flex; */
+    background-color: #c5f3fa;
+    padding: 0.8rem 0.5rem;
+    border-bottom: 1px solid #0f0fbf;
+    text-align: center;
+    font-size: 14px;
+    font-family: calibri Light;
+    margin: 1rem 0.2rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .dMonitorDetail {
+    /* display: flex; */
+    text-align: center;
+    font-size: 14px;
+    font-family: calibri Light;
+    margin: 0.2rem 0.2rem;
+    padding: 0rem 0.5rem;
+  }
+
+  .dTitleDetail{
+    width:90% !important;
+    text-align: left;
+    font-size: 12px !important;
+}
+
+.dTitleMonth{
+    width:80% !important;
+    text-align: left;
+    font-size: 12px !important;
+}
+
+.dTitleMonthNumber{
+    width:80% !important;
+    text-align: right;
+    font-size: 12px !important;
+}
+
+
